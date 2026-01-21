@@ -18,6 +18,38 @@ section {
   padding: 40px 20px;
 }
 
+nav {
+  background-color: #36241C;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #F9F5F3;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #D3B6AB;
+}
+]
 /* HERO SECTION - Eye-catching introduction */
 .hero {
   background-color: #36241C;
