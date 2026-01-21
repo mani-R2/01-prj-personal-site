@@ -49,12 +49,15 @@ nav a {
 nav a:hover {
   color: #D3B6AB;
 }
+
 /* HERO SECTION - Eye-catching introduction */
 .hero {
-  background-color: #36241C;
+  background-image: url('img/websitebackground.jpg');
+  background-size: cover;
+  background-position: center;
   color: #F9F5F3;
   text-align: center;
-  padding: 80px 20px;
+  padding: 80px 40px;
 }
 
 .hero h1 {
