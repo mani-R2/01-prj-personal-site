@@ -1,1 +1,138 @@
-/* Add you CSS here */
+/* Import DynaPuff font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+/* General styles for the entire page */
+body {
+  font-family: 'DynaPuff', cursive;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #F9F5F3;
+  color: #36241C;
+}
+
+/* Main container width for all sections */
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* HERO SECTION - Eye-catching introduction */
+.hero {
+  background-color: #36241C;
+  color: #F9F5F3;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* BIO SECTION - About me */
+.bio {
+  background-color: #F0E5E1;
+  padding: 40px 20px;
+}
+
+.bio h2 {
+  color: #36241C;
+  border-bottom: 3px solid #815F51;
+  padding-bottom: 10px;
+}
+
+.bio p {
+  font-size: 16px;
+}
+
+/* Profile image styling */
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+  border: 8px solid #815F51;
+  box-shadow: 0 4px 15px rgba(54, 36, 28, 0.3);
+  object-fit: cover;
+}
+
+/* SKILLS SECTION - List of abilities */
+.skills {
+  background-color: #E6D5CE;
+  padding: 40px 20px;
+}
+
+.skills h2 {
+  color: #36241C;
+  border-bottom: 3px solid #815F51;
+  padding-bottom: 10px;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills li {
+  background-color: #F0E5E1;
+  margin: 10px 0;
+  padding: 15px;
+  border-left: 4px solid #815F51;
+}
+
+/* SONGS SECTION - Motivation playlist */
+.songs {
+  background-color: #F0E5E1;
+  padding: 40px 20px;
+}
+
+.songs h2 {
+  color: #36241C;
+  border-bottom: 3px solid #644234;
+  padding-bottom: 10px;
+}
+
+.songs ol {
+  padding-left: 20px;
+}
+
+.songs li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Style for song links */
+.songs a {
+  color: #644234;
+  text-decoration: none;
+  border-bottom: 2px solid #815F51;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect - changes color when you move mouse over the link */
+.songs a:hover {
+  color: #36241C;
+  border-bottom-color: #36241C;
+}
+
+/* FOOTER - Page bottom */
+footer {
+  background-color: #36241C;
+  color: #F9F5F3;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
