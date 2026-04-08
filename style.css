@@ -168,6 +168,12 @@ nav a:hover {
 }
 
 /* PROJECT PREVIEW - Show a small page preview when hovering a project link */
+
+.projects {
+  background-color: #F0E5E1;
+  padding: 20px 20px;
+}
+
 .project-item {
   margin-bottom: 25px;
   list-style-type: none;
