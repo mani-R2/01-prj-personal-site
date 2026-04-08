@@ -167,6 +167,75 @@ nav a:hover {
   border-bottom-color: #36241C;
 }
 
+/* PROJECT PREVIEW - Show a small page preview when hovering a project link */
+.project-item {
+  margin-bottom: 25px;
+  list-style-type: none;
+}
+
+.project-link {
+  background-color: #F0E5E1;
+  color: #644234;
+  border: 2px solid #815F51;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'DynaPuff', cursive;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #815F51;
+  color: #F9F5F3;
+}
+
+.project-preview {
+  display: none;
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #F9F5F3;
+  border: 2px solid #815F51;
+  border-radius: 10px;
+}
+
+.project-item:hover .project-preview {
+  display: block;
+}
+
+.project-preview p {
+  margin: 0 0 8px 0;
+  color: #36241C;
+  font-weight: bold;
+}
+
+.project-preview img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border: 1px solid #36241C;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Resume and Certificates section */
+.resume {
+  background-color: #E6D5CE;
+  padding: 20px 20px;
+}
+
+.resume a {
+  color: #644234;
+  text-decoration: none;
+  border-bottom: 2px solid #815F51;
+  transition: all 0.3s ease;
+}
+
+.resume a:hover {
+  color: #36241C;
+  border-bottom-color: #36241C;
+}
+
 /* FOOTER - Page bottom */
 footer {
   background-color: #36241C;
