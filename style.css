@@ -368,27 +368,58 @@ nav a:hover {
   text-align: center;
 }
 
-.songs ol {
-  padding-left: 20px;
+.song-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 25px;
 }
 
-.songs li {
-  margin: 10px 0;
-  font-size: 16px;
+.song-card {
+  background-color: #F9F5F3;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.song-card:hover {
+  transform: translateY(-5px);
+}
+
+.song-card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 12px;
+}
+
+.song-card h3 {
+  color: #36241C;
+  margin: 10px 0 5px;
+}
+
+.song-card p {
+  margin-bottom: 15px;
+  color: #644234;
 }
 
 /* Style for song links */
 .songs a {
-  color: #644234;
+  display: inline-block;
+  background-color: #36241C;
+  color: #F9F5F3;
   text-decoration: none;
-  border-bottom: 2px solid #815F51;
-  transition: all 0.3s ease;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease,
 }
 
 /* Hover effect - changes color when you move mouse over the link */
 .songs a:hover {
-  color: #36241C;
-  border-bottom-color: #36241C;
+  background-color: #644234;
 }
 
 /* CONTACT SECTION */
