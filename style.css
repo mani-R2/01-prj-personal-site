@@ -296,16 +296,63 @@ nav a:hover {
   padding: 20px 20px;
 }
 
-.resume a {
-  color: #644234;
-  text-decoration: none;
-  border-bottom: 2px solid #815F51;
-  transition: all 0.3s ease;
+.resume h2 {
+  color: #36241C;
+  border-bottom: 3px solid #644234;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
-.resume a:hover {
+.resume-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 30px;
+  align-items: stretch;
+}
+
+.resume-card {
+  background-color: #F9F5F3;
+  width: auto;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.resume-card:hover {
+  transform: translateY(-5px);
+}
+
+.resume-card i {
+  font-size: 40px;
+  color: #815F51;
+  margin-bottom: 10px;
+}
+
+.resume-card h3 {
   color: #36241C;
-  border-bottom-color: #36241C;
+}
+
+.resume-card a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #36241C;
+  color: #F9F5F3;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.resume-card a:hover {
+  background-color: #644234;
+  color: #F9F5F3;
 }
 
 /* SONGS SECTION - Motivation playlist */
