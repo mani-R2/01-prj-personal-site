@@ -191,18 +191,33 @@ nav a:hover {
   list-style-type: none;
   padding-left: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
 }
 
 .skills li {
   background-color: #F0E5E1;
-  padding: 15px;
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border-left: 4px solid #815F51;
-  flex: 1;
-  min-width: 150px;
+  font-size: 18px;
   text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills li:hover {
+  transform: translateY(-5px);
+}
+
+.skills li i {
+  font-size: 28px;
+  margin-bottom: 10px;
 }
 
 /* SONGS SECTION - Motivation playlist */
