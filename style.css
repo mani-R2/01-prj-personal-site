@@ -220,60 +220,6 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* SONGS SECTION - Motivation playlist */
-.songs {
-  background-color: #F0E5E1;
-  padding: 20px 20px;
-}
-
-.songs h2 {
-  color: #36241C;
-  border-bottom: 3px solid #644234;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
-.songs ol {
-  padding-left: 20px;
-}
-
-.songs li {
-  margin: 10px 0;
-  font-size: 16px;
-}
-
-/* Style for song links */
-.songs a {
-  color: #644234;
-  text-decoration: none;
-  border-bottom: 2px solid #815F51;
-  transition: all 0.3s ease;
-}
-
-/* Hover effect - changes color when you move mouse over the link */
-.songs a:hover {
-  color: #36241C;
-  border-bottom-color: #36241C;
-}
-
 /* PROJECT PREVIEW - Show a small page preview when hovering a project link */
 
 .projects {
@@ -360,6 +306,86 @@ nav a:hover {
 .resume a:hover {
   color: #36241C;
   border-bottom-color: #36241C;
+}
+
+/* SONGS SECTION - Motivation playlist */
+.songs {
+  background-color: #F0E5E1;
+  padding: 20px 20px;
+}
+
+.songs h2 {
+  color: #36241C;
+  border-bottom: 3px solid #644234;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.songs ol {
+  padding-left: 20px;
+}
+
+.songs li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Style for song links */
+.songs a {
+  color: #644234;
+  text-decoration: none;
+  border-bottom: 2px solid #815F51;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect - changes color when you move mouse over the link */
+.songs a:hover {
+  color: #36241C;
+  border-bottom-color: #36241C;
+}
+
+/* CONTACT SECTION */
+.contact {
+  background-color: #E6D5CE;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact h2 {
+  color: #36241C;
+  border-bottom: 3px solid #644234;
+  padding-bottom: 10px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.contact-links a {
+  background-color: #F0E5E1;
+  color: #644234;
+  font-size: 30px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-links a:hover {
+  color: #36241C;
+  background-color: #815F51;
+  transform: translateY(-3px);
+}
+
+.contact-links i {
+  font-size: 22px;
 }
 
 /* FOOTER - Page bottom */
