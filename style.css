@@ -55,7 +55,7 @@ nav a:hover {
   background-image: url('img/websitebackground.jpg');
   background-size: cover;
   background-position: center;
-  color: #F9F5F3;
+  color: #36241C;
   text-align: center;
   padding: 80px 20px;
 }
@@ -122,7 +122,7 @@ nav a:hover {
 }
 
 .social-icons a {
-  color: #F9F5F3;
+  color: #36241C;
   font-size: 30px;
   transition: color 0.3s ease;
 }
